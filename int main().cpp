@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 int main()
 {
     int n, sum=0, prod=1;
@@ -9,7 +11,7 @@ int main()
     d=n%10;
     sum=sum+d;
     prod=prod*d;
-    n=n/10
+    n=n/10;
 }
 if(sum==prod)
 printf("Given number is spy number");
